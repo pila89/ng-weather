@@ -42,5 +42,6 @@ import { HttpCacheService } from './http-cache.service';
   ],
   providers: [LocationService, WeatherService,HttpCacheService],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
